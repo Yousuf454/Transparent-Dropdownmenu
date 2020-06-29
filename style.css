@@ -1,0 +1,52 @@
+body{
+    background: url("images/Bg.jpg") center no-repeat;
+    height: 100vh;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+.dropdownmenu1{
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+   
+}
+.dropdownmenu1 ul{
+ padding: 0px;
+ cursor: pointer;
+}
+.dropdownmenu1 ul li{
+    float: left;
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    text-align: center;
+    list-style: none;
+    opacity: 0.6;
+    
+   
+    
+}.dropdownmenu1 ul li ul{
+    display: none;
+    text-decoration: none;
+}
+.dropdownmenu1 ul li:hover > ul{
+    display: block;
+}
+.dropdownmenu1 ul li:hover{
+    background-color: rgb(71, 145, 255);
+    opacity: 0.9;
+}
+.dropdownmenu1 ul li ul li{
+    position: relative;
+}
+.dropdownmenu1 ul li ul li ul{
+    position: absolute;
+    left: 200px;
+    top: 0px;
+}
+
